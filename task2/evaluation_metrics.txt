@@ -1,0 +1,27 @@
+Time: 2024-04-17 16:04:06.222822
+Results: explained_variance: 0.9706
+mean_squared_log_error: 0.0121
+r2: 0.9706
+MAE: 334.9965
+MAPE: 0.0836
+MSE: 453415.1487
+RMSE: 673.3611
+
+Time: 2024-04-17 16:11:07.174786
+Results: explained_variance: 0.9652
+mean_squared_log_error: 0.0188
+r2: 0.9652
+MAE: 357.6957
+MAPE: 0.0906
+MSE: 506363.9771
+RMSE: 711.5926
+
+Time: 2024-04-17 16:57:59.748483
+Results: explained_variance: 0.9631
+mean_squared_log_error: 0.0218
+r2: 0.9631
+MAE: 371.04
+MAPE: 0.0935
+MSE: 536181.1753
+RMSE: 732.2439
+

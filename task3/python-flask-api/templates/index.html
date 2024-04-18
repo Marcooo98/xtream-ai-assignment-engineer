@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <p> Press the "Evaluate your diamonds!" button to get a price prediction for your diamond </p>
+
+    <button onclick="window.location.href='{{ url_for('create') }}'" class="button">Evaluate your diamonds!</button>
+
+    <img src="{{ url_for('static', filename='yG.gif') }}" alt="Image">
+{% endblock %}

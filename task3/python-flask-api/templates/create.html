@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %} Fill the form to get a price prediction! {% endblock %}</h1>
+    <form method="post">
+        <label for="carat">Carat</label>
+        <br>
+        <input type="text" name="carat"
+           placeholder="Carat"
+           value="{{ request.form['carat'] }}"></input>
+        <br>
+
+        <label for="cut">Cut</label>
+        <br>
+        <input type="text" name="cut"
+               placeholder="Cut"
+               value="{{ request.form['cut'] }}"></input>
+        <br>
+
+        <label for="color">Color</label>
+        <br>
+        <input type="text" name="color"
+               placeholder="Color"
+               value="{{ request.form['color'] }}"></input>
+        <br>
+
+        <label for="clarity">Clarity</label>
+        <br>
+        <input type="text" name="clarity"
+               placeholder="Clarity"
+               value="{{ request.form['clarity'] }}"></input>
+        <br>
+
+        <label for="depth">Depth</label>
+        <br>
+        <input type="number" name="depth"
+               placeholder="Depth"
+               step="0.01"
+               value="{{ request.form['depth'] }}"></input>
+        <br>
+
+        <label for="table">Table</label>
+        <br>
+        <input type="text" name="table"
+               placeholder="Table"
+               value="{{ request.form['table'] }}"></input>
+        <br>
+
+        <label for="x">X</label>
+        <br>
+        <input type="text" name="x"
+               placeholder="X"
+               value="{{ request.form['x'] }}"></input>
+        <br>
+
+        <label for="y">Y</label>
+        <br>
+        <input type="text" name="y"
+               placeholder="Y"
+               value="{{ request.form['y'] }}"></input>
+        <br>
+
+        <label for="z">Z</label>
+        <br>
+        <input type="text" name="z"
+               placeholder="Z"
+               value="{{ request.form['z'] }}"></input>
+        <br>
+
+        <button type="submit">Submit</button>
+    </form>
+{% endblock %}

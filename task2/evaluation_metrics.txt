@@ -25,3 +25,12 @@ MAPE: 0.0935
 MSE: 536181.1753
 RMSE: 732.2439
 
+Time: 2024-04-17 17:36:22.951499
+Results: explained_variance: 0.9639
+mean_squared_log_error: 0.019
+r2: 0.9639
+MAE: 360.3034
+MAPE: 0.0908
+MSE: 524332.9095
+RMSE: 724.1084
+

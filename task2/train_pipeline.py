@@ -1,3 +1,5 @@
+import pickle
+
 import pandas as pd
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.compose import ColumnTransformer
@@ -144,6 +146,9 @@ def main():
             f"Time: {datetime.now()}\n"
             f"Results: {regression_results(y_test, predicted)}\n\n"
         )
+        
+    with open("latest_pipeline.pkl", "wb") as f:
+        pickle.dump(model, f)
 
 
 if __name__ == "__main__":
